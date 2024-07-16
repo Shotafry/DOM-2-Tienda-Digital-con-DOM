@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bryan Lozano Aguilar" />
+    <meta
+      name="keywords"
+      content="Tienda, videojuegos, Zelda, Breath of the Wild, Hyrule Warriors, Nintendo Switch, Wii U"
+    />
+    <title>Zelda Games Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Triforce.svg/2048px-Triforce.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h1 class="logo">
+          <img
+            src="https://www.freeiconspng.com/uploads/play-video-games-icon-26.png"
+            alt="Logo"
+          />
+          Shotafry Games
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="filtros" class="filtros">
+        <h2>Juegos Destacados de la Saga Zelda</h2>
+        <div class="filtros">
+          <h3>Filtrar por</h3>
+          <div class="filtro-precio">
+            <label for="precio-min">Precio mínimo:</label>
+            <input
+              type="number"
+              id="precio-min"
+              name="precio-min"
+              placeholder="0"
+            />
+            <label for="precio-max">Precio máximo:</label>
+            <input
+              type="number"
+              id="precio-max"
+              name="precio-max"
+              placeholder="100"
+            />
+            <button id="filtrar-precio">Filtrar</button>
+          </div>
+        </div>
+        <ul id="lista-productos" class="lista-productos"></ul>
+      </section>
+    </main>
+    <footer id="contacto">
+      <p>
+        &copy; 2024 Shotafry Games. Todos los derechos reservados. (Pagina
+        creada con fines de formación y estudio, no lucrativos).
+      </p>
+      <p>
+        Contacto: <a href="mailto:Shotafry@gmail.com">Shotafry@gmail.com</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/bryanlozanoaguilar/"
+          target="_blank"
+          >Bryan Lozano Aguilar</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/Shotafry" target="_blank"
+          >GitHub de Bryan</a
+        >
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
